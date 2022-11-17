@@ -42,6 +42,10 @@ group :test do
   gem "database_cleaner"
   gem "rspec"
   gem "rack-test", "~> 1.1"
+  gem "thin"
+  gem "puma"
+  gem "falcon"
+  gem "webrick"
 end
 
 
